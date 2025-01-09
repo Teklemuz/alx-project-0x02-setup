@@ -1,6 +1,6 @@
 import { useState } from "react";
 import PostModal from "../components/common/PostModal"; 
-import Card from "../../components/common/Card"; 
+import Card from "../components/common/Card"; 
 import Header from "../components/layout/Header"; 
 
 const HomePage: React.FC = () => {
