@@ -1,7 +1,8 @@
 import { useState } from "react";
 import PostModal from "../components/common/PostModal"; 
-import Card from "../components/common/Card"; 
+import Card from "@/components/common/Card"; 
 import Header from "../components/layout/Header"; 
+import { type CardProps }"
 
 const HomePage: React.FC = () => {
   const [posts, setPosts] = useState<{ title: string; content: string }[]>([
